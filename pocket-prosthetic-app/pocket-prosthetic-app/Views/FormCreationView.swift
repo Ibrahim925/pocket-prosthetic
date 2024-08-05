@@ -53,12 +53,6 @@ struct FormCreationView: View {
 						.cornerRadius(8)
 				}
 				.padding()
-				
-				// Example error message
-				Text("Error: Something went wrong")
-					.frame(maxWidth: .infinity, alignment: .leading) // Left-align only the error message
-					.padding()
-					.foregroundColor(.red)
 			}
 		}
 		.onAppear() {
