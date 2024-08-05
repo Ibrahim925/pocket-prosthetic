@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+	@EnvironmentObject var globalState: GlobalState
 
-#Preview {
-    ContentView()
+	var body: some View {
+		TabView {
+//			HomeView()
+//				.tabItem {
+//					Label("Home", systemImage: "house")
+//				}
+//
+//			if globalState.user?.type == "EMPLOYEE" || globalState.user?.type == "ADMIN" {
+//				PatientsView()
+//					.tabItem {
+//						Label("Patients", systemImage: "person")
+//					}
+//			}
+			
+			RequestsView()
+				.tabItem {
+					Label("Requests", systemImage: "arrowshape.zigzag.right")
+				}
+			
+			LogInView()
+				.tabItem { Label("Log Out", systemImage: "arrowshape.turn.up.left.fill") }
+		}
+		.accentColor(.blue)
+		.navigationBarBackButtonHidden(true)
+	}
 }

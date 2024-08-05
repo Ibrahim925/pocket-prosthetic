@@ -79,7 +79,7 @@ class ExportViewModel: NSObject, ObservableObject, ARSessionDelegate {
 	// What is an mdl asset? -> An indexed container for 3D objects and associated information, such as transform hierarchies, meshes, cameras, and lights
 	func export(asset: MDLAsset, fileName: String) throws -> URL {
 		guard let directory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
-			throw NSError(domain: "com.original.VirtualShowrooms", code: 153)
+			throw NSError(domain: "pocket-prosthetic-app", code: 153)
 		}
 		
 		let folderName = "OBJ_FILES" // Replace with the desired folder name

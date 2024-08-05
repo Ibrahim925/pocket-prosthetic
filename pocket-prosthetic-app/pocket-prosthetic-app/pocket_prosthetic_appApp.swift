@@ -1,21 +1,19 @@
-//
-//  pocket_prosthetic_appApp.swift
-//  pocket-prosthetic-app
-//
-//  Created by Ibrahim Khawar on 2024-08-03.
-//
-
 import SwiftUI
 import ARKit
+import Combine
 
 @main
 struct pocket_prosthetic_appApp: App {
+	@StateObject private var globalState = GlobalState()
+	
 	@UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	
+	var body: some Scene {
+		WindowGroup {
+			LogInView()
+				.environmentObject(globalState)
+		}
+	}
 }
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -26,4 +24,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 		
 		return true
 	}
+}
+
+class GlobalState: ObservableObject {
+	@Published var user: User?
+	@Published var isLoggedIn: Bool = false
 }

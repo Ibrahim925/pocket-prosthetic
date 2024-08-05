@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Form: Codable {
+	var id: Int
+	var done: Bool
+	var created_at: String
+	var updated_at: String
+}

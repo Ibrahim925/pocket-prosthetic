@@ -8,17 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		0FBFEDFE2C5E2054009DD0BD /* pocket_prosthetic_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEDFD2C5E2054009DD0BD /* pocket_prosthetic_appApp.swift */; };
-		0FBFEE002C5E2054009DD0BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEDFF2C5E2054009DD0BD /* ContentView.swift */; };
 		0FBFEE022C5E2055009DD0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBFEE012C5E2055009DD0BD /* Assets.xcassets */; };
 		0FBFEE052C5E2055009DD0BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBFEE042C5E2055009DD0BD /* Preview Assets.xcassets */; };
+		0FBFEE0C2C5E227D009DD0BD /* ARWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE0B2C5E227D009DD0BD /* ARWrapper.swift */; };
+		0FBFEE0E2C5E265F009DD0BD /* Mesh+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE0D2C5E265F009DD0BD /* Mesh+Ext.swift */; };
+		0FBFEE122C5E7CB6009DD0BD /* FetchModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE112C5E7CB6009DD0BD /* FetchModelView.swift */; };
+		0FBFEE182C5EF300009DD0BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE172C5EF300009DD0BD /* User.swift */; };
+		0FBFEE1C2C5EF42D009DD0BD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE1B2C5EF42D009DD0BD /* Request.swift */; };
+		0FBFEE1E2C5EF441009DD0BD /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE1D2C5EF441009DD0BD /* Hospital.swift */; };
+		0FBFEE202C5EF47D009DD0BD /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE1F2C5EF47D009DD0BD /* Form.swift */; };
+		0FBFEE222C5EF4B4009DD0BD /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE212C5EF4B4009DD0BD /* Field.swift */; };
+		0FBFEE242C5EF4CF009DD0BD /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE232C5EF4CF009DD0BD /* Feedback.swift */; };
+		0FBFEE262C5EF666009DD0BD /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFEE252C5EF666009DD0BD /* LogInView.swift */; };
+		0FD9EE2F2C5F20C3006DFA35 /* requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE2E2C5F20C3006DFA35 /* requests.swift */; };
+		0FD9EE342C5F41D3006DFA35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE332C5F41D3006DFA35 /* ContentView.swift */; };
+		0FD9EE362C5F4202006DFA35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE352C5F4202006DFA35 /* HomeView.swift */; };
+		0FD9EE382C5F4210006DFA35 /* PatientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE372C5F4210006DFA35 /* PatientsView.swift */; };
+		0FD9EE3A2C5F422D006DFA35 /* RequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE392C5F422D006DFA35 /* RequestsView.swift */; };
+		0FD9EE3C2C5F4246006DFA35 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE3B2C5F4246006DFA35 /* FeedbackView.swift */; };
+		0FD9EE412C5F4A87006DFA35 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE402C5F4A87006DFA35 /* FormView.swift */; };
+		0FD9EE452C5F5976006DFA35 /* RequestCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE442C5F5976006DFA35 /* RequestCreationView.swift */; };
+		0FD9EE472C5F757E006DFA35 /* FormCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EE462C5F757E006DFA35 /* FormCreationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FBFEDFA2C5E2054009DD0BD /* pocket-prosthetic-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocket-prosthetic-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBFEDFD2C5E2054009DD0BD /* pocket_prosthetic_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_prosthetic_appApp.swift; sourceTree = "<group>"; };
-		0FBFEDFF2C5E2054009DD0BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FBFEE012C5E2055009DD0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FBFEE042C5E2055009DD0BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FBFEE0B2C5E227D009DD0BD /* ARWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWrapper.swift; sourceTree = "<group>"; };
+		0FBFEE0D2C5E265F009DD0BD /* Mesh+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mesh+Ext.swift"; sourceTree = "<group>"; };
+		0FBFEE112C5E7CB6009DD0BD /* FetchModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModelView.swift; sourceTree = "<group>"; };
+		0FBFEE172C5EF300009DD0BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0FBFEE1B2C5EF42D009DD0BD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		0FBFEE1D2C5EF441009DD0BD /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		0FBFEE1F2C5EF47D009DD0BD /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		0FBFEE212C5EF4B4009DD0BD /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		0FBFEE232C5EF4CF009DD0BD /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		0FBFEE252C5EF666009DD0BD /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0FD9EE2E2C5F20C3006DFA35 /* requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requests.swift; sourceTree = "<group>"; };
+		0FD9EE302C5F273A006DFA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0FD9EE332C5F41D3006DFA35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FD9EE352C5F4202006DFA35 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0FD9EE372C5F4210006DFA35 /* PatientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsView.swift; sourceTree = "<group>"; };
+		0FD9EE392C5F422D006DFA35 /* RequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsView.swift; sourceTree = "<group>"; };
+		0FD9EE3B2C5F4246006DFA35 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		0FD9EE402C5F4A87006DFA35 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		0FD9EE442C5F5976006DFA35 /* RequestCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCreationView.swift; sourceTree = "<group>"; };
+		0FD9EE462C5F757E006DFA35 /* FormCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCreationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +88,13 @@
 		0FBFEDFC2C5E2054009DD0BD /* pocket-prosthetic-app */ = {
 			isa = PBXGroup;
 			children = (
+				0FD9EE302C5F273A006DFA35 /* Info.plist */,
+				0FD9EE242C5F1D1E006DFA35 /* API */,
 				0FBFEDFD2C5E2054009DD0BD /* pocket_prosthetic_appApp.swift */,
-				0FBFEDFF2C5E2054009DD0BD /* ContentView.swift */,
+				0FBFEE162C5EF07E009DD0BD /* Models */,
+				0FBFEE152C5EF075009DD0BD /* Components */,
+				0FBFEE142C5EF06C009DD0BD /* Views */,
+				0FBFEE132C5EF039009DD0BD /* 3D */,
 				0FBFEE012C5E2055009DD0BD /* Assets.xcassets */,
 				0FBFEE032C5E2055009DD0BD /* Preview Content */,
 			);
@@ -65,6 +107,60 @@
 				0FBFEE042C5E2055009DD0BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FBFEE132C5EF039009DD0BD /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				0FBFEE0B2C5E227D009DD0BD /* ARWrapper.swift */,
+				0FBFEE112C5E7CB6009DD0BD /* FetchModelView.swift */,
+				0FBFEE0D2C5E265F009DD0BD /* Mesh+Ext.swift */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+		0FBFEE142C5EF06C009DD0BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9EE332C5F41D3006DFA35 /* ContentView.swift */,
+				0FBFEE252C5EF666009DD0BD /* LogInView.swift */,
+				0FD9EE352C5F4202006DFA35 /* HomeView.swift */,
+				0FD9EE372C5F4210006DFA35 /* PatientsView.swift */,
+				0FD9EE392C5F422D006DFA35 /* RequestsView.swift */,
+				0FD9EE3B2C5F4246006DFA35 /* FeedbackView.swift */,
+				0FD9EE402C5F4A87006DFA35 /* FormView.swift */,
+				0FD9EE442C5F5976006DFA35 /* RequestCreationView.swift */,
+				0FD9EE462C5F757E006DFA35 /* FormCreationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FBFEE152C5EF075009DD0BD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0FBFEE162C5EF07E009DD0BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FBFEE172C5EF300009DD0BD /* User.swift */,
+				0FBFEE1B2C5EF42D009DD0BD /* Request.swift */,
+				0FBFEE1D2C5EF441009DD0BD /* Hospital.swift */,
+				0FBFEE1F2C5EF47D009DD0BD /* Form.swift */,
+				0FBFEE212C5EF4B4009DD0BD /* Field.swift */,
+				0FBFEE232C5EF4CF009DD0BD /* Feedback.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FD9EE242C5F1D1E006DFA35 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9EE2E2C5F20C3006DFA35 /* requests.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +233,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FBFEE002C5E2054009DD0BD /* ContentView.swift in Sources */,
+				0FD9EE472C5F757E006DFA35 /* FormCreationView.swift in Sources */,
+				0FBFEE122C5E7CB6009DD0BD /* FetchModelView.swift in Sources */,
+				0FD9EE452C5F5976006DFA35 /* RequestCreationView.swift in Sources */,
+				0FD9EE382C5F4210006DFA35 /* PatientsView.swift in Sources */,
+				0FBFEE1C2C5EF42D009DD0BD /* Request.swift in Sources */,
+				0FD9EE342C5F41D3006DFA35 /* ContentView.swift in Sources */,
+				0FBFEE242C5EF4CF009DD0BD /* Feedback.swift in Sources */,
+				0FBFEE0C2C5E227D009DD0BD /* ARWrapper.swift in Sources */,
+				0FBFEE182C5EF300009DD0BD /* User.swift in Sources */,
+				0FD9EE412C5F4A87006DFA35 /* FormView.swift in Sources */,
+				0FBFEE1E2C5EF441009DD0BD /* Hospital.swift in Sources */,
+				0FBFEE202C5EF47D009DD0BD /* Form.swift in Sources */,
+				0FBFEE0E2C5E265F009DD0BD /* Mesh+Ext.swift in Sources */,
 				0FBFEDFE2C5E2054009DD0BD /* pocket_prosthetic_appApp.swift in Sources */,
+				0FBFEE222C5EF4B4009DD0BD /* Field.swift in Sources */,
+				0FD9EE3C2C5F4246006DFA35 /* FeedbackView.swift in Sources */,
+				0FD9EE362C5F4202006DFA35 /* HomeView.swift in Sources */,
+				0FBFEE262C5EF666009DD0BD /* LogInView.swift in Sources */,
+				0FD9EE3A2C5F422D006DFA35 /* RequestsView.swift in Sources */,
+				0FD9EE2F2C5F20C3006DFA35 /* requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +389,8 @@
 				DEVELOPMENT_TEAM = AXHYKJT8S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pocket-prosthetic-app/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "using camera for lidar";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +420,8 @@
 				DEVELOPMENT_TEAM = AXHYKJT8S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pocket-prosthetic-app/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "using camera for lidar";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
